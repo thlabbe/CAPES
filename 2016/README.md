@@ -27,10 +27,9 @@ Comme on réalise régulièrement les mêmes instructions, on se propose de d'é
 - une longueur l
 - un pas de rotation a, donnée en degrés
 - un mot, appelée motif, sur l’alphabet {F, +, -} avec comme convention :
-
-- F : avancer de l
-- + : tourner à gauche de l’angle défini par le pas de rotation
-- - : tourner à droite de l’angle défini par le pas de rotation.
+ - F : avancer de l
+ - + : tourner à gauche de l’angle défini par le pas de rotation
+ - - : tourner à droite de l’angle défini par le pas de rotation.
 
 
 2. Décrire la figure *maison* sous la forme F(l, a, m) en précisant les valeurs de l, a et m (on commencera
