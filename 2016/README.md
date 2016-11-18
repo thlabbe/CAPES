@@ -48,6 +48,27 @@ du point A).
 exemple si un caractère non défini est présent dans le motif).
 
 ```python
+# avec turtle
+def dessiner(unite, angle, motif):
+	for commande in motif:
+		print(commande)
+		if commande == "F":
+			forward(unite)
+		
+		elif commande == "+":
+			left(angle)
+		
+		elif commande == "-": 
+			right(angle) 
+		
+		else:
+			return 1
+
+	return 0
+```
+
+```python
+# avec mathplot
 def dessiner(unite, angle, motif):
     xi = 0.0
     yi = 0.0
